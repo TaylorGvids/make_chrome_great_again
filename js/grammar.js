@@ -1,2 +1,13 @@
+var replaceTerms = [
+["it's", "its"],
+["you're", "your"],
+["their", "there"],
+[";", ";"]
+]
 
-$("body").html($("body").html().replace("it's", "its"))
+for (var i = 0; i < replaceTerms.length; i++){
+    var curTerms = replaceTerms[i];
+    $("body").html($("body").html().replace(curTerms[0], curTerms[1]));
+}
+
+ 
