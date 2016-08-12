@@ -9,7 +9,7 @@ var replaceTerms = [
     // ["Hillary", "Donald"],
     // ["Clinton", "Trump"],
     // ["Donald Trump", "Donald Duck", 1.0],
-    [/Donald J?(ohn)?\.?Trump/, "Donald Duck", 1.0],
+    [/Donald J?(ohn)?\.?\s?Trump/, "Donald Duck", 1.0],
     ["Lorem", "Ipsum", 0.01],
     ["Microsoft", "Apple", 0.01]
     // [";", ";"]
