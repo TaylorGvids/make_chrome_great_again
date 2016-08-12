@@ -2,10 +2,11 @@
   "manifest_version": 2,
   "name": "Extension",
   "version": "0.1",
-  "background": {
-    "persistent": true,
-    "scripts": [
-      "main.js"
-    ]
-  }
+  "content_scripts": [
+    {
+      "matches": ["http://*/*", "https://*/*"],
+      "js": ["js/jquery-3.1.0.min.js", "js/main.js"],
+      "run_at": "document_end"
+    }
+  ]
 }
