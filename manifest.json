@@ -41,11 +41,6 @@
     },
     {
       "matches": ["http://*/*", "https://*/*"],
-      "js": ["js/jquery-3.1.0.min.js", "js/load.js"],
-      "run_at": "document_start"
-    },
-    {
-      "matches": ["http://*/*", "https://*/*"],
       "js": ["js/jquery-3.1.0.min.js", "js/ruingoogle.js"],
       "run_at": "document_end"
     }
