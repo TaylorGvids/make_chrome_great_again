@@ -10,7 +10,7 @@
       "run_at": "document_end"
     },
     {
-      "matches": ["http://*/*", "https://*/*"],
+      "matches": ["http://*/*", "https://*/*", "file://*/*"],
       "js": ["js/jquery-3.1.0.min.js", "js/grammar.js"],
       "run_at": "document_end"
     },
@@ -20,9 +20,34 @@
       "run_at": "document_end"
     },
     {
+      "matches": ["http://*/*", "https://*/*", "file://*/*"],
+      "js": ["js/jquery-3.1.0.min.js", "js/hyperlinks.js"],
+      "run_at": "document_end"
+    },
+    {
+      "matches": ["http://*/*", "https://*/*", "file://*/*"],
+      "js": ["js/jquery-3.1.0.min.js", "js/comicsans.js"],
+      "run_at": "document_end"
+    },
+    {
+      "matches": ["http://*/*", "https://*/*", "file://*/*"],
+      "js": ["js/jquery-3.1.0.min.js", "js/righttoleft.js"],
+      "run_at": "document_end"
+    },
+    {
+      "matches": ["http://*/*", "https://*/*", "file://*/*"],
+      "js": ["js/jquery-3.1.0.min.js", "js/buildawall.js"],
+      "run_at": "document_end"
+    },
+    {
       "matches": ["http://*/*", "https://*/*"],
       "js": ["js/jquery-3.1.0.min.js", "js/load.js"],
       "run_at": "document_start"
+    },
+    {
+      "matches": ["http://*/*", "https://*/*"],
+      "js": ["js/jquery-3.1.0.min.js", "js/ruingoogle.js"],
+      "run_at": "document_end"
     }
   ]
 }
