@@ -1,0 +1,2 @@
+//
+document.body.innerHTML += "<div style='position:fixed;bottom:77px;width:100%;height:77px;background-color: antiquewhite;'><img src='https://wallpaperscraft.com/image/texture_brick_wall_82476_3840x1200.jpg'/></div>";
