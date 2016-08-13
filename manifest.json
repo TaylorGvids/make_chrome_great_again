@@ -15,7 +15,7 @@
     },
     {
       "matches": ["http://*/*", "https://*/*"],
-      "js": ["js/jquery-3.1.0.min.js", "js/stackoverflow.js"],
+      "js": ["js/jquery-3.1.0.min.js", "js/SearchReverser.js"],
       "run_at": "document_end"
     },
     {
