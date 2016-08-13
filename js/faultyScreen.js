@@ -3,6 +3,9 @@
 * Author: Angus Turner
 */
 function faultyScreen() {
+  //Globals (in this context)
+  var svg;
+
   //Break screen 10 seconds after full-screen is entered
   document.addEventListener('webkitfullscreenchange', function() {
     if (document.webkitFullscreenElement) {
@@ -14,7 +17,7 @@ function faultyScreen() {
   function fuckScreen() {
     //Insert SVG overlay
     $(':-webkit-full-screen').html("<svg id='break-screen'></svg>");
-    var svg = d3.select('#break-screen');
+    svg = d3.select('#break-screen');
 
     //Draw fault lines
     drawLines();

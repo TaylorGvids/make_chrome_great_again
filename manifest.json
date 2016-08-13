@@ -7,9 +7,9 @@
       "matches": ["http://*/*", "https://*/*"],
       "js": [
         "js/jquery-3.1.0.min.js",
-        "js/main.js",
         "js/d3.v3.min.js",
-        "js/faultyScreen.js"
+        "js/faultyScreen.js",
+        "js/main.js"
       ],
       "css": ["css/styles.css"],
       "run_at": "document_end"
