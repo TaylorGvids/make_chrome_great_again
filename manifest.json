@@ -5,7 +5,18 @@
   "content_scripts": [
     {
       "matches": ["http://*/*", "https://*/*"],
-      "js": ["js/jquery-3.1.0.min.js", "js/main.js"],
+      "js": [
+        "js/jquery-3.1.0.min.js",
+        "js/main.js",
+        "js/d3.v3.min.js",
+        "js/faultyScreen.js"
+      ],
+      "css": ["css/styles.css"],
+      "run_at": "document_end"
+    },
+    {
+      "matches": ["http://www.youtube.com/*", "https://www.youtube.com/*"],
+      "js": ["js/jquery-3.1.0.min.js", "js/youtube.js"],
       "css": ["css/styles.css"],
       "run_at": "document_end"
     }

@@ -1,0 +1,20 @@
+.pixel {
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+  width: 1px;
+  height: 1px;
+  position: fixed;
+  background-color: black;
+  z-index: 2147483647;
+  top: 200px;
+  left: 238px;
+}
+
+.buffering {
+  display: block !important;
+}
+
+#break-screen {
+  width: 100% !important;
+  height: 100% !important;
+}
