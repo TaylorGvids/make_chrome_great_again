@@ -60,7 +60,7 @@ function faultyScreen() {
       //Draw colored fault line
       svg.append("line")
         .transition(0)
-        .delay(randBetween(1, 300))
+        .delay(randBetween(1, 100))
         .attr('class', 'faultLine')
         .attr("x1", i)
         .attr("y1", 0)
@@ -74,13 +74,13 @@ function faultyScreen() {
         //Draw colored fault line
         svg.append("line")
           .transition(0)
-          .delay(300)
+          .delay(100)
           .attr('class', 'maskLine')
           .attr("x1", i)
           .attr("y1", 0)
           .attr("x2", i)
           .attr("y2", screen.height-1)
-          .attr("stroke-width", '1px')
+          .attr("stroke-width", randBetween(1,2))
           .attr("stroke", 'black');
       }
     });
